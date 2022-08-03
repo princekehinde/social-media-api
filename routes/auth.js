@@ -6,8 +6,8 @@ const {regUser, loginUser } = require('../controllers/auth');
 // Register a new user
 router.post('/register', regUser);
 
-// // Login a user
+// Login a user
 
-// router.post('/login', loginUser);
+router.post('/login', loginUser);
 
 module.exports = router;
