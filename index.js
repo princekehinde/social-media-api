@@ -29,6 +29,7 @@ app.use(morgan('common'));
 
 app.use('/api/users', userRouter);
 app.use('/api/auth', authRouter);
+app.use('/api/posts', postRouter);
 
 app.listen(8800,()=>{
     console.log ("Social media backend sever is running'");
